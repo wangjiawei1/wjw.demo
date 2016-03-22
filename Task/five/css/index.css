@@ -1,0 +1,225 @@
+img{
+	width: 300px;
+	height: 200px;
+}
+body{
+	background:#dedede;
+}
+.header{
+	height: 60px;
+	width:100%;
+	background: #333333;
+	
+}
+.headerT{
+	width: 1242px;
+	height: 60px;
+	margin: 0 auto;
+}
+.header h1{
+	float: left;
+	width: 118px;
+	height: 38px;
+	margin-top: 10px;
+	margin-left: 20px;
+	background: url(../img/logo.jpg)no-repeat;
+	text-indent: -999999px;
+	cursor: pointer;;
+}
+.header ul{
+	float: right;
+	height: 100%
+}
+.header ul li{
+	float: left;
+	margin:auto 14px;
+	list-style-type: circle;
+	width: 70px;
+}
+.header ul li a{
+	line-height: 60px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+.header ul li a:hover{
+	color: #888888;
+}
+/* 头部结束 */
+.article h2{
+	font-size: 22px;
+	margin-bottom: 25px;
+	
+}
+.article h3{
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #626262;
+}
+.article span{
+	
+	color: #787772;
+}
+.article p{
+	line-height: 26px;
+	margin: 20px 0;
+}
+.article a{
+	color: #0d22f5;
+	text-decoration: underline;
+}
+.article{
+	width: 818px;
+	margin: 20px auto;
+	border: 1px solid #cbcbcb;
+	background: #fff;
+	padding: 40px 20px 20px; 
+	border-right: 3px solid #cbcbcb;
+	border-bottom: 3px solid #cbcbcb;
+}
+/* 文章一开始 */
+.tbody{
+	width: 858px;
+	float: left;
+}
+.content{
+	width: 1242px;
+	margin: 0 auto;
+}
+/* 文章一结束 */
+/* 文章二开始 */
+.articleTwo ul{
+	margin: 15px 0 16px 20px;
+}
+.articleTwo ul li{
+	line-height: 26px;
+}
+/* 文章二结束 */
+/* 图片开始 */
+.pic.article h3{
+	color: #000;
+	margin: 20px 0;
+}
+.pic em{
+	display:block;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;;
+}
+.pic ul{
+	margin-left: 40px;
+}
+.pic ul li{
+	width: 120px;
+	height: 124px;
+	border: 1px solid #cecece;
+	margin-bottom: 15px;
+	float: left;
+	margin-right: 18px;
+}
+.pic img{
+	width: 100px;
+	height: 80px;
+	margin: 10px;
+	margin-top: 0px;
+}
+/* 图片结束 */
+/* 最后一篇文章开始 */
+.articleThree ol{
+	margin-top: 14px;
+	margin-left: 55px;
+}
+.articleThree ol li{
+	line-height: 26px;
+	list-style: decimal;
+	font-size: 16px;
+}
+.articleThree p{
+	margin-bottom: 0;
+}
+.articleThree table{
+	width: 810px;
+	line-height: 22px;
+}
+.articleThree table thead th{
+	background: #333;
+	color: #fff;
+}
+.articleThree table tfoot {
+	background: #ccc;
+	font-weight: bold;
+}
+.articleThree table td{
+	padding-left: 6px;
+}
+
+.borderAll,.borderNtop,.borderNleft,.borderNlefttop{border:1px solid #a1a1a1;}
+.borderNtop,.borderNlefttop{border-top:none;}
+.borderNleft,.borderNlefttop{border-left:none;}
+.borderNright{border-right:none;}
+/* 最后一篇文章结束 */
+/* 注册开始 */
+.register{
+	width: 326px;
+	float: right;
+	border: 1px solid #cbcbcb;
+	background: #fff;
+	padding: 40px 20px 20px; 
+	border-right: 3px solid #cbcbcb;
+	border-bottom: 3px solid #cbcbcb;
+	margin-top: 20px;
+}
+.register h2{
+	height: 38px;
+	line-height: 38px;
+	border-left: 4px solid #ccc;
+	padding-left: 10px;
+}
+.registerIn{
+	margin-left: 16px;
+}
+.registerIn .emailS{
+	text-indent: 8em;
+	margin: 10px 0 20px;
+	color: #666;
+}
+.registerIn .passwordFirst{
+	margin-left: 2em;
+	
+}
+.registerIn .passwordS{
+	display: block;
+	padding-top: 10px;
+}
+.mb{
+	margin-bottom: 12px;
+}
+.discribe i{
+	float: left;
+}
+.discribe textarea{
+	width: 210px;
+	height: 100px;
+}
+.button{
+	width: 320px;
+	margin: 0 auto;
+	height: 38px;
+	line-height: 38px;
+	border: 0;
+	border-radius: 10px;
+	background: #3355d0;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+/* 注册结束 */
+.bq{
+	height: 70px;
+	background: #000;
+	width: 100%;
+	line-height: 70px;
+	color: #fff;
+	text-align: center;
+}
+
