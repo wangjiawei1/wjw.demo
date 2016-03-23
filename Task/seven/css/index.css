@@ -68,10 +68,485 @@
 }
 /*头部结束*/
 /*banner开始*/
+.banner{
+	width: 1280px;
+	height: 854px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom:44px;
+}
 .banner .pic{
 	background: url(../img/banner.jpg) ;
 	width: 100%;
 	height:854px;
-
+}
+.banner a{
+	width: 331px;
+	height:65px;
+	position: absolute;
+	line-height: 65px;
+	text-align: center;
+	background: #e7504d;
+	font-size: 30px;
+	color:#fff;
+	top: 430px;
+	left: 126px; 
 }
 /*banner结束*/
+/*内容开始*/
+.content{
+	width: 1280px;
+	margin: 0 auto;
+}
+/*内容一开始*/
+.contentOne{
+	width: 1280px;
+	height: 205px;
+
+}
+.contentOne ul{
+	width: 1280px;
+}
+.contentOne ul li{
+	float: left;
+	width: 320px;
+}
+.contentOne ul li .icon{
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.contentOne ul li em{
+	width: 42px;
+	height:42px;
+	background: url(../img/sprint.png) 0 0; 
+}
+.contentOne ul li i{
+	width: 35px;
+	height:40px;
+	padding-bottom: 2px;
+	background: url(../img/sprint.png) -44px 0; 
+}
+.contentOne ul li span{
+	width: 35px;
+	height:40px;
+	padding-bottom: 2px;
+	background: url(../img/sprint.png) -80px 0; 
+}
+.contentOne ul li b{
+	width: 41px;
+	height:40px;
+	padding-bottom: 2px;
+	background: url(../img/sprint.png) -117px 0; 
+}
+.contentOne ul li p{
+	margin: 0 auto;
+	padding:0 82px;
+	width: 154px;
+	margin-top: 46px;
+	text-align: center;
+	font-size: 14px;
+	color: #767777;
+	border-right: 1px solid #777778;
+}
+/*内容一结束*/
+/*内容二开始*/
+.contentTwo{
+	width: 1280px;
+	background: #ededed;
+	height: 272px;
+	padding-top: 88px;
+}
+.contentTwo em{
+	display: block;
+	width: 91px;
+	height:92px;
+	margin: 0 auto 50px;
+	background: url(../img/sprint.png) 0 -69px;
+}
+.contentTwo p{
+	font-size: 52px;
+	color: #a1a1a1;
+	text-align: center;
+}
+/*内容二结束*/
+/*内容三开始*/
+.contentThree{
+	height: 340px;
+	width: 1280px;
+	margin: 0 auto;
+	background: url(../img/search.jpg);
+}
+.contentThree form{
+	padding: 170px 0 0 120px;
+}
+.contentThree select{
+	height: 36px;
+	width: 236px;
+	margin-right: 28px;
+	-webkit-appearance: none;
+	background: url(../img/click.jpg) right center no-repeat #fff;
+	background-position: 210px;
+}
+.contentThree span{
+	display: inline-block;
+	width: 236px;
+	height:36px;
+	background: #be4f48;
+	float: right;
+	margin-right: 120px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 36px;
+	cursor: pointer;
+}
+/*内容三结束*/
+/*内容四开始*/
+.contentFour{
+	height: 406px;
+	background: #f7f7f7;
+	width: 1024px;
+	padding: 100px 110px 100px 146px ;
+}
+.contentFour ul li{
+	float: left;
+	width: 220px;
+	margin-right: 36px;
+}
+.contentFour ul li a{
+	display: block;
+	font-size: 14px;
+	color: #323333;
+	text-align: center;
+	line-height: 40px;
+}
+.contentFour .shang a{
+	display: inline-block;
+	font-size: 22px;
+	letter-spacing:28px;
+	margin: 0 0 0 20px;
+}
+.contentFour ul li em{
+	display: block;
+	text-align: center;
+	color: #898989;
+	margin-bottom: 6px;
+}
+/*内容四结束*/
+/*内容五开始*/
+.contentFive{
+	width: 1280px;
+	height:567px;
+}
+.contentFive .pic{
+	height: 567px;
+	width: 852px;
+	background: url(../img/newWorld.png) no-repeat;
+	float: left;
+}
+.contentFive .more{
+	float: right;
+	width: 288px;
+	padding:74px 70px;
+	position: relative; 
+}
+.contentFive .more h3{
+	font-size: 20px;
+	text-align: right;
+	margin-bottom: 122px;
+	font-weight: normal;
+}
+.contentFive .more h3 span{
+	color: #e74f4d;
+}
+.contentFive .more p{
+	color:#bdbdbd;
+	line-height: 30px;
+}
+.contentFive .more a{
+	display: block;
+	margin: 50px auto 24px;
+	border: 1px solid #e25d60;
+	height: 30px;
+	width:102px;
+	color: #e25c60;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+}
+.contentFive .more ul{
+	margin: 0 auto;
+	width: 72px;
+}
+.contentFive .more ul li{
+	width: 12px;
+	height: 12px;
+	background: url(../img/sprint.png) no-repeat -170px 0;
+	float: left;
+	margin-right: 12px;
+	cursor: pointer;
+}
+.contentFive .more ul .current{
+	background: url(../img/sprint.png) no-repeat -158px 0;
+}
+.contentFive .more i {
+	width: 26px;
+	height:31px;
+	position: absolute;
+	top: 268px;
+	left: -26px;
+	background: url(../img/sprint.png) no-repeat -183px 0;
+}
+/*内容五结束*/
+/*内容六开始*/
+.contentSix {
+	width: 1280px;
+	height: 521px;
+}
+.contentSix ul{
+	width: 850px;
+	float: left;
+}
+.contentSix ul li{
+	float: left;
+	padding: 173px 128px 0;
+	width: 169px;
+	background: #e74f4d;
+	height: 348px;
+	font-size: 20px;
+	color: #fff;
+}
+.contentSix ul li p{
+	text-align: center;
+	line-height: 30px;
+
+}
+.contentSix ul li span{
+	margin: 0 4px;
+}
+.contentSix ul li em{
+	display: block;
+	height: 3px;
+	width: 31px;
+	background: #fff;
+	margin: 25px auto;
+}
+.contentSix ul li a{
+	display: block;
+	color: #fff;
+	border:1px solid #fff;
+	width: 170px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+}
+.contentSix .white{
+	background:#fff;
+	color: #323333;
+}
+.contentSix .white em{
+	background: #ababab;
+}
+.contentSix .white a{
+	border:1px solid #e95b58;
+	color: #e95b58;
+}
+.contentSix .rightPic{
+	float: right;
+	width: 430px;
+	height: 521px;
+	background: url(../img/newWorld2.jpg);
+	position: relative;
+}
+.contentSix .rightPic em{
+	width: 26px;
+	height: 31px;
+	position: absolute;
+	top: 268px;
+	left: 0px;
+	background: url(../img/sprint.png) no-repeat -128px -50px;
+}
+/*内容六结束*/
+/*内容七开始*/
+.contentSeven{
+	height: 750px;
+	width: 1000px;
+	padding: 0 140px;
+}
+.contentSeven .top{
+	height:182px;
+	padding-top: 120px;
+
+}
+.contentSeven .top h3{
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+.contentSeven .top em{
+	display: block;
+	height: 3px;
+	width: 31px;
+	background: #e95b58;
+	margin: 10px auto 15px;
+}
+.contentSeven .top p{
+	text-align: center;
+	line-height: 18px;
+	color: #aaaaaa;
+}
+.contentSeven .left{
+	float: left;
+	width: 290px;
+} 
+.contentSeven .left ul{
+	width: 290px;
+}
+.contentSeven .left ul li{
+	margin-bottom:25px;
+}
+.contentSeven .left ul li span{
+	font-size: 14px;
+	color: #666160;
+	margin-bottom: 27px;
+	display: block;
+	margin-bottom: 18px;
+}
+.contentSeven .left ul li p{
+	line-height: 20px;
+	color: #d2d2d2;
+}
+.contentSeven .left ul li a{
+	float: right;
+	color: #959291;
+}
+.contentSeven .left ul li i{
+	height: 6px;
+	width: 10px;
+	display: inline-block;
+	background: url(../img/sprint.png) no-repeat -160px -33px;
+}
+.contentSeven .right{
+	float: right;
+	width: 640px;
+} 
+.contentSeven .right input {
+	width:292px;
+	margin-bottom: 14px;
+	margin-right: 8px;
+	background: #edecee;
+	border: 0;
+	height:40px;
+	color:#6c6868;
+	padding-left: 18px;
+}
+.contentSeven .right textarea{
+	 resize : none;
+	 width: 590px;
+	 border: 0;
+	 background: #edecee;
+	 height:100px;
+	 color:#6c6868;
+	 padding: 10px 18px;
+	 margin-bottom: 14px;
+}
+.contentSeven .right button{
+	font-size: 14px;
+	color:#323333;
+	width: 626px;
+	height: 40px;
+	background: #edecee;
+}
+/*内容七结束*/
+/*内容结束*/
+/*底部开始*/
+.tfoot{
+	/*width: 1280px;*/
+	height: 416px;
+	background: #32353e;
+	margin: 0 auto;
+}
+.tfoot .contact{
+	width: 510px;
+	margin: 0 auto;
+	padding-top: 90px;
+	height: 268px;
+	color: #fff;
+}
+.tfoot .contact h4{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.tfoot .contact p{
+	line-height: 18px;
+	text-align: center;
+}
+.tfoot .contact .email{
+	width: 510px;
+	height: 30px;
+	border: 1px solid #a5a7aa;
+	margin: 30px 0 36px;
+}
+.tfoot .contact .email input{
+	height: 28px;
+	color: #aaaaaa;
+	width: 430px;
+	border: 0;
+	float: left;
+}
+.tfoot .contact .email button{
+	width: 80px;
+	height: 30px;
+	float: right;
+	border: 0;
+	background: #6f7278;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+}
+.tfoot .contact ul{
+	width: 190px;
+	margin: 0 auto;
+}
+.tfoot .contact ul li{
+	float: left;
+	height: 25px;
+	margin-left: 28px;
+}
+.tfoot .contact ul .qq{
+	width: 24px;
+	background: url(../img/sprint.png) no-repeat -86px -43px;
+	margin-left: 0px;
+}
+.tfoot .contact ul .sina{
+	width: 29px;
+	background: url(../img/sprint.png) no-repeat -54px -43px;
+}
+.tfoot .contact ul .bird{
+	width: 29px;
+	background: url(../img/sprint.png) no-repeat 0px -43px;
+}
+.tfoot .contact ul .inter{
+	width: 24px;
+	background: url(../img/sprint.png) no-repeat -31px -43px;
+}
+.tfoot .tfootT{
+ 	height:58px;
+ 	background: #2f3038;
+ 	padding: 0 100px;
+ 	color: #fff; 
+ 	line-height: 58px;
+ 	font-size: 10px;
+}
+.tfoot .tfootT a{
+	float: left;
+	color: #fff;
+}
+.tfoot .tfootT strong{
+	float: right;
+	font-weight:  normal;
+	cursor: pointer;
+}
+/*底部结束*/
