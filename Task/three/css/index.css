@@ -1,0 +1,42 @@
+.bigBox{
+	border: 1px solid #999;
+	background: #eee;
+	padding: 20px;
+}
+.left{
+	float: left;
+	width: 160px;
+	padding: 20px;
+	background: #fff;
+	margin-right: 20px;
+}
+.left .logo{
+	width: 80px;
+	height:80px;
+	background: purple;
+	float: left;
+}
+.left h3{
+	float: left;
+}
+.bottom{
+	background: #fff;
+	border: 1px solid #999;
+	padding: 20px;
+	margin:0 140px 0 220px;
+}
+.bottom p{
+	width: auto;
+}
+.right{
+	float: right;
+	width: 80px;
+	padding: 20px;
+	background: #fff;
+}
+.right ul li{
+	margin: 20px auto;
+	height: 80px;
+	width: 80px;
+	background: #f60;
+}
