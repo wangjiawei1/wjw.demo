@@ -1,0 +1,325 @@
+.content{
+	width: 892px;
+	height:1386px;
+	padding: 0 44px;
+	margin: 0 auto;
+}
+/*头部开始*/
+.thead{
+	width: 892px;
+	border-bottom: 2px solid #938e8c;
+	height: 61px;
+	font-family: 黑体;
+	margin-bottom: 34px;
+}
+.thead .logo{
+	width: 110px;
+	height:61px;
+	background: #d45d5c;
+	float: left;
+}
+.thead .logo span{
+	font-size: 12px;
+	color: #fff;
+	display: block;
+	padding: 46px 0 0 7px;
+}
+.thead em{
+	float: right;
+	display: block;
+	padding-top: 46px;
+	color: #d45d5c;
+}
+/*头部结束*/
+/*第一部分开始*/
+.partOne{
+	height: 301px;
+}
+.partOne .bigPic{
+	width: 641px;
+	height: 301px;
+	background: url(../img/bigPic.jpg);
+	position: relative;
+	float: left;
+}
+.partOne .bigPic:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 301px;
+	width: 191px;
+	background: rgba(66,140,89,.5);
+}
+.partOne .bigPic:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 301px;
+	width: 191px;
+	background: rgba(205,118,129,.5);
+}
+.partOne .partOneRight{
+	float: right;
+	width: 203px;
+	height: 2px;
+	background: #cc8091;
+}
+.partOne .partOneRight p{
+	font-size: 24px;
+	color: #000000;
+	text-decoration: underline;
+	line-height: 40px;
+}
+.partOne .partOneRight span{
+	font-size: 12px;
+	color: #676767;
+	font-family: 楷体;
+	line-height: 10px;
+}
+.partOne .partOneRight i{
+	display: block;
+	font-size: 116px;
+	color: #75b86b;
+	font-family: 微软雅黑;
+	font-style: italic;
+}
+.partOne .partOneRight em{
+	float: left;
+	font-size: 45px;
+	color: #cc8091;
+}
+.partOne .partOneRight div{
+	float: left;
+	font-weight: normal;
+}
+.partOne .partOneRight div strong{
+	display: block;
+	font-weight: normal;
+	color: #cc8091;
+	font-size: 21px;
+	margin-top: 8px;
+}
+.partOne .partOneRight div b{
+	display: block;
+	font-weight: normal;
+	font-size: 12px;
+}
+/*第一部分结束*/
+/*第二部门开始*/
+.partTwo{
+	margin-top: 40px;
+	margin-bottom: 75px;
+}
+.partTwo div{
+	width: 228px;
+	padding-right: 28px;
+}
+.partTwo div i{
+	font-size: 16px;
+	color: #418c59;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.partTwo div p{
+	padding-top: 10px;
+}
+.partTwo .left{
+	float: left;
+}
+.partTwo .left p{
+	color: #767777;
+	font-family: 宋体;
+	line-height: 16px;
+}
+.partTwo .middle{
+	float: left;
+}
+.partTwo .middle i{
+	color: #d2994f;
+}
+.partTwo .middle p{
+	line-height: 16px;
+	color: rgba(35,24,21,.7);
+
+}
+.partTwo .right{
+	float: left;
+	width: 130px;
+}
+.partTwo .right i{
+	color: #cc7680;
+}
+.partTwo .right p{
+	line-height: 22px;
+	margin-bottom: 28px;
+}
+.partTwo .right span{
+	display: block;
+	line-height: 16px;
+	color: rgba(35,24,21,.7);
+}
+.partTwo .right span em{
+	color: rgba(205,74,74,.7);
+	font-style: italic;
+}
+/*第二部分结束*/
+/*第三部分开始*/
+.partThree {
+	padding-bottom: 40px;
+	border-bottom: 1px solid #938e8c;
+}
+.partThree .fl{
+	width: 415px;
+	float: left;
+}
+.partThree .fl b{
+	font-size: 42px;
+	color:#11456b;
+	font-family: 黑体;
+	display: block;
+	border-bottom: 1px solid #11456b;
+	padding-bottom: 18px;
+	margin-bottom: 24px;
+}
+.partThree .fl b strong{
+	font-size: 72px;
+	color: #f5e327;
+	font-style: italic;
+	padding: 0 18px 0 10px;
+}
+.partThree .fl p{
+	color: #767777;
+	font-family: 宋体;
+	line-height: 16px;
+	float: left;
+}
+.partThree .fl i{
+	font-size: 70px;
+	color: #f5e327;
+	float: left;
+	line-height: 66px;
+}
+.partThree .fl img{
+	margin-top: 20px;
+	margin-left: 20px;float: right;
+	margin-right: 9px;
+}
+.partThree .fr{
+	float: right;
+	position: relative;
+}
+.partThree .fr img{
+	
+	height: 275px;
+	width: 458px;
+}
+.partThree .fr .in{
+	width: 458px;
+	height: 61px;
+	position: absolute;
+	left: 0;
+	top: 214px;
+	background: rgba(0,0,0,.5);
+	line-height: 61px;
+}
+.partThree .fr .in span{
+	color: #fff;
+	margin-left:38px;
+	padding-left: 12px;
+	font-size: 26px;
+	border-left: 3px solid #72b16a;
+}
+.partThree .fr .in i{
+	font-style: italic;
+	letter-spacing: 140%;
+	color: #72b16a;
+}
+.partThree .fr .xia{
+	width: 458px;
+	height:318px;
+	background: #eeedd6;
+	margin-top: 30px;
+}
+.partThree .fr .xia ul{
+	padding: 30px 20px 8px 30px;
+}
+.partThree .fr .xia ul li{
+	line-height: 40px;
+	font-family: 宋体;
+	font-size: 16px;
+	color: #5a5b5b;
+}
+.partThree .fr .xia ul li i{
+	background: url(../img/top.png) no-repeat;
+	width: 10px;
+	height:8px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.partThree .fr .xia ul li span{
+	font-size: 12px;
+	text-align: right;
+	font-style: italic;
+	float: right;
+}
+.partThree .fr .xia .bottom{
+	height: 160px;
+}
+.partThree .fr .xia .bottom .bottomL{
+	float: left;
+	width: 233px;
+	height: 125px;
+	background: #d45d5c;
+	padding: 35px 12px 0px 15px;
+	color: #ffffff;
+
+}
+.partThree .fr .xia .bottom .bottomL i{
+	float: left;
+	font-size: 110px;
+	border-right: 2px solid #fff;
+	line-height: 86px;
+	margin-right: 8px;
+}
+.partThree .fr .xia .bottom .bottomL .bottomLL{
+
+}
+.partThree .fr .xia .bottom .bottomL .bottomLL span{
+	font-size: 21px;
+	font-family: 黑体;
+	font-style: italic;
+	line-height: 24px;
+}
+.partThree .fr .xia .bottom .bottomL .bottomLL b{
+	font-family: 黑体;
+	line-height: 12px;
+	display: block;
+}
+.partThree .fr .xia .bottom .bottomR{
+	margin-left: 15px;
+	float: left;
+	width: 170px;
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: 黑体;
+	font-style: italic;;
+	
+}
+.partThree .fr .xia .bottom .bottomR{
+	line-height: 16px;
+}
+.partThree .fr .xia .bottom .bottomR em{
+	font-size: 72px;
+	color: #d45d5c;
+	float: left;
+	line-height: 14px;
+	color: #d45d5c;
+	margin: 25px 0 -20px -40px;
+}
+.partThree .fr .xia .bottom .bottomR .emR{
+	float: right;
+	margin: 15px -25px 0 0;
+}
+/*第三部分结束*/
