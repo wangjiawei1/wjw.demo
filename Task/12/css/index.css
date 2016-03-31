@@ -1,0 +1,79 @@
+.first{
+  color: #fff;
+  background: #000;
+}
+table tbody tr:nth-child(2) {
+  color: red;
+}
+table tbody tr:nth-child(3) {
+  color: red;
+}
+table tbody tr:nth-child(4) {
+  color: red;
+}
+table tbody tr:nth-child(2n+1) {
+  background: #ccc;
+}
+form input{
+	width: 200px;
+	height: 20px;
+	margin-left: 40px;
+	margin-top: 20px;
+	position: relative;
+}
+form input:focus{
+	width: 400px;
+	
+}
+.bigBox{
+	margin-top: 40px;
+	margin-left: 40px;
+	overflow: hidden;
+	width: 400px;
+	height:200px;
+	position: relative;
+}
+.bigBox ul{
+	width: 300%;
+    height: 100%;
+    position: relative;
+    left: 0;
+}
+.bigBox ul li{
+	width: 400px;
+	height:200px;
+	background: #f60;
+	float: left;
+}
+.bigBox ul li:nth-child(1){
+}
+.bigBox ul li:nth-child(2){
+	background: red;
+}
+.bigBox ul li:nth-child(3){
+	background: yellow;
+}
+.num{
+	position: fixed;
+	top: 468px;
+	left: 365px;
+	height: 20px;
+}
+.num a{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: rgba(255,255,255,.5);
+	text-align: center;
+	margin-left: 5px;
+}
+#box1:target~.box{
+    left: 0
+}
+#box2:target~.box{
+    left: -100%;
+}
+#box3:target~.box{
+    left: -200%;
+}
